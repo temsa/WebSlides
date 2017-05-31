@@ -1,3 +1,9 @@
+Avant tout:
+
+```
+npm i
+```
+
 Pour lister les commandes :
 
 ```
