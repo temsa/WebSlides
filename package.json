@@ -38,6 +38,7 @@
     "browser-env": "^2.0.30",
     "eslint": "^3.19.0",
     "eslint-loader": "^1.7.1",
+    "gh-pages": "^1.0.0",
     "npm-run-all": "^4.0.2",
     "rimraf": "^2.6.1",
     "smart-banner-webpack-plugin": "^3.0.1",
@@ -50,7 +51,8 @@
     "build:main": "webpack",
     "build:main.min": "webpack --output-filename [name].min.js -p",
     "dev": "webpack-dev-server",
-    "test": "ava test/*.js"
+    "test": "ava test/*.js",
+    "publish": "node publish.js"
   },
   "babel": {
     "presets": [
